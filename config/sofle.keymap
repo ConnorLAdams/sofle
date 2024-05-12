@@ -45,7 +45,7 @@
               &kp RET  &mo LOWER &kp LALT &kp LGUI   &kp LBKT     &kp SPACE  &mo RAISE  &kp MINUS &kp EQUAL  &kp RBKT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
         lower_layer {
@@ -65,7 +65,7 @@
                           &trans       &trans       &trans       &trans     &trans   &trans  &trans    &trans   &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
         raise_layer {
